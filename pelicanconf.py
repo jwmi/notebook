@@ -3,8 +3,12 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Jeff Miller'
-SITENAME = u"Jeff's notebook"
+SITENAME = u"Miller's notebook"
 SITEURL = ''
+
+# Theme settings
+THEME = 'pelican-alchemy/alchemy'
+SITE_SUBTEXT = 'Notes on my research in statistics and its applications'
 
 PATH = 'content'
 
