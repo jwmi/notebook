@@ -2,14 +2,25 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Jeff Miller'
+AUTHOR = u'Jeffrey W. Miller'
 SITENAME = u"Miller's notebook"
 SITEURL = ''
 
+#### BEGIN CUSTOMIZATIONS #####
 # Theme settings
 THEME = 'pelican-alchemy/alchemy'
 SITE_SUBTEXT = 'Notes on my research in statistics and its applications'
+HOME_ON_MENU = True
+PAGES_ON_MENU = True
+ARCHIVES_ON_MENU = True
+LICENSE_NAME = 'Creative Commons Attribution 4.0 International License'
+LICENSE_URL = 'http://creativecommons.org/licenses/by/4.0/'
+GITHUB_ADDRESS = 'http://github.com/jwmi'
+META_DESCRIPTION = SITENAME
 
+#### END CUSTOMIZATIONS #####
+
+########
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
@@ -36,4 +47,4 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 50
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True

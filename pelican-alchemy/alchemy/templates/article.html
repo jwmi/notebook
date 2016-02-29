@@ -48,6 +48,11 @@
     <div class="post-content">
       {{ article.content }}
     </div>
+    <hr class="separator">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+    Please cite as:
+    "{{ article.author }}, <i>{{ article.title | striptags }}</i>, {{ article.collection }}, {{ article.date.strftime("%Y-%m-%d") }}, {{ article.publisher }}."
+
   </div>
   <hr class="separator">
   <div class="col-md-8 col-md-offset-2">

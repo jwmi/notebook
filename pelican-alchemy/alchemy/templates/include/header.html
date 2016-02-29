@@ -11,6 +11,9 @@
       </h1>
       <h3 class="header-text">{{ SITE_SUBTEXT }}</h3>
       <ul class="header-menu list-inline">
+        {% if HOME_ON_MENU %}
+          <li><a class="nodec" href="{{ SITEURL }}">&nbsp;Home</a></li>
+        {% endif %}
         {% for title, link in MENU_ITEMS %}
           <li><a class="nodec" href="{{ link }}" target="_blank">{{ title }}</a></li>
         {% endfor %}
