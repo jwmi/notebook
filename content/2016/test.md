@@ -1,6 +1,13 @@
 Title: Test post
-Date: 2016-02-25
-Category: Test
+Authors: Jeffrey W. Miller
+Publisher: Duke University
+Collection: Lab Notebook
+Date: 2016-02-28
+Category: General
+Tags: 
+Slug: test-post
+Summary: Short version for index and feeds
 
-This is a test. More testing.
+This is a test post.
+
 
