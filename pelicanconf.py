@@ -18,6 +18,11 @@ LICENSE_URL = 'http://creativecommons.org/licenses/by/4.0/'
 GITHUB_ADDRESS = 'http://github.com/jwmi'
 META_DESCRIPTION = SITENAME
 
+# Plugins
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['render_math']
+
+
 #### END CUSTOMIZATIONS #####
 
 ########
