@@ -9,7 +9,7 @@ SITEURL = ''
 #### BEGIN CUSTOMIZATIONS #####
 # Theme settings
 THEME = 'pelican-alchemy/alchemy'
-SITE_SUBTEXT = 'Notes on my research in statistics and its applications'
+SITE_SUBTEXT = 'Open notebook of my research in statistics and its applications'
 HOME_ON_MENU = True
 PAGES_ON_MENU = True
 ARCHIVES_ON_MENU = True
@@ -17,10 +17,16 @@ LICENSE_NAME = 'Creative Commons Attribution 4.0 International License'
 LICENSE_URL = 'http://creativecommons.org/licenses/by/4.0/'
 GITHUB_ADDRESS = 'http://github.com/jwmi'
 META_DESCRIPTION = SITENAME
+#PROFILE_IMAGE = 'images/coffee-table-small.jpg'
 
 # Plugins
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['render_math']
+PLUGINS = ['render_math','disqus_static']
+
+# Disqus (comments)
+DISQUS_SITENAME = u"Miller's notebook"
+DISQUS_SECRET_KEY = u'4N6PXCPDSpJT9A0EhpUChp5BUCOoT5sIBUW1hYKc08iPQG7oPuyY6TL71gjnofQ2'
+DISQUS_PUBLIC_KEY = u'VgW0p6k1CzIL7WT1TKJPvgBYu46ZKylVRo5cMuctZ9VtvHgH2NL7OmnNphikiKq7'
 
 
 #### END CUSTOMIZATIONS #####
@@ -52,4 +58,4 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 50
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
