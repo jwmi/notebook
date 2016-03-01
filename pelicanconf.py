@@ -28,6 +28,16 @@ DISQUS_SITENAME = u'millersnotebook'
 DISQUS_SECRET_KEY = u'4N6PXCPDSpJT9A0EhpUChp5BUCOoT5sIBUW1hYKc08iPQG7oPuyY6TL71gjnofQ2'
 DISQUS_PUBLIC_KEY = u'VgW0p6k1CzIL7WT1TKJPvgBYu46ZKylVRo5cMuctZ9VtvHgH2NL7OmnNphikiKq7'
 
+# Paths
+STATIC_PATHS = [
+    'images', 
+    'extra/favicon.ico'
+]
+    #'extra/robots.txt', 
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
+    #'extra/robots.txt': {'path': 'robots.txt'},
 
 #### END CUSTOMIZATIONS #####
 
