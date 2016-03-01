@@ -8,7 +8,7 @@ Slug: test-post
 Summary: Short version for index and feeds
 
 This is a test post.
-Here is some more text.
+Change some text.
 Let's add some math: $x = \sqrt{2}$,
 
 $$ f(x) = \sum_{i = 0}^\infty \frac{x^k}{k!}. $$
