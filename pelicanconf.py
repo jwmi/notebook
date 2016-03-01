@@ -20,7 +20,7 @@ META_DESCRIPTION = SITENAME
 #PROFILE_IMAGE = 'images/coffee-table-small.jpg'
 
 # Plugins
-PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['plugins']
 PLUGINS = ['render_math','disqus_static']
 
 # Disqus (comments)
