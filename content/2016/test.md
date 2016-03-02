@@ -1,8 +1,8 @@
-Title: Test post
+Title: Test post with a longer title that is more descriptive
 Authors: Jeffrey W. Miller
-Collection: Lab Notebook
+Collection: Miller's notebook
 Date: 2016-02-28
-Category: General
+Category: misc
 Tags: 
 Slug: test-post
 Summary: Short version for index and feeds

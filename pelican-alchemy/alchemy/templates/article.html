@@ -49,9 +49,38 @@
       {{ article.content }}
     </div>
     <hr class="separator">
-    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-    You may cite this as:
-    "{{ article.author }}, <i>{{ article.title | striptags }}</i>, {{ article.collection }}, {{ article.date.strftime("%Y-%m-%d") }}."
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+    Cite/attribute as:
+    "{{ article.author }}. {{ article.title | striptags }}. <i>{{ article.collection }}</i>, {{ article.date.strftime("%B %d, %Y") }}."
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+   //var e = document.getElementById(id);
+   //e.style.display = 'none';
+//-->
+</script>
+<button onclick="toggle_visibility('bibtex');" style="font-size: 80%">bibtex</button>
+<div id="bibtex" style="display: none">
+<textarea rows="8" cols="70">
+{% set lastname = (article.author|string).split(' ')[-1] %}
+@article{{"{"}}{{ [(lastname|lower),article.date.strftime("%Y")]|join("") }},
+    author = {{"{"}}{{ article.author }}{{"}"}},
+    title = {{"{"}}{{ article.title }}{{"}"}},
+    journal = {{"{"}}{{ article.collection }}{{"}"}},
+    type = {{"{"}}Lab notebook{{"}"}},
+    volume = {{"{"}}{{ article.date.strftime("%B %d") }}{{"}"}},
+    year = {{"{"}}{{ article.date.strftime("%Y") }}{{"}"}}
+}
+</textarea>
+</div>
 
   </div>
   <hr class="separator">
