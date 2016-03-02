@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jeffrey W. Miller'
 SITENAME = u"Miller's notebook"
-SITEURL = ''
+SITEURL = u'http://jwmi.github.io'
 
 #### BEGIN CUSTOMIZATIONS #####
 # Theme settings
@@ -31,12 +31,12 @@ DISQUS_PUBLIC_KEY = u'VgW0p6k1CzIL7WT1TKJPvgBYu46ZKylVRo5cMuctZ9VtvHgH2NL7OmnNph
 # Paths
 STATIC_PATHS = [
     'images', 
-    'extra/favicon.ico'
+    'extra/favicon-16x16.png'
 ]
 EXTRA_FAVICON = True
     #'extra/robots.txt', 
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon-16x16.png': {'path': 'favicon-16x16.png'}
 }
     #'extra/robots.txt': {'path': 'robots.txt'},
 
