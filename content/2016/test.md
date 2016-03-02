@@ -1,6 +1,7 @@
 Title: Test post with a longer title that is more descriptive
 Authors: Jeffrey W. Miller
 Collection: Miller's notebook
+Type: Lab notebook
 Date: 2016-02-28
 Category: misc
 Tags: 

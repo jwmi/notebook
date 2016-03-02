@@ -63,8 +63,6 @@
        else
           e.style.display = 'block';
     }
-   //var e = document.getElementById(id);
-   //e.style.display = 'none';
 //-->
 </script>
 <button onclick="toggle_visibility('bibtex');" style="font-size: 80%">bibtex</button>
@@ -75,7 +73,7 @@
     author = {{"{"}}{{ article.author }}{{"}"}},
     title = {{"{"}}{{ article.title }}{{"}"}},
     journal = {{"{"}}{{ article.collection }}{{"}"}},
-    type = {{"{"}}Lab notebook{{"}"}},
+    type = {{"{"}}{{ article.type }}{{"}"}},
     volume = {{"{"}}{{ article.date.strftime("%B %d") }}{{"}"}},
     year = {{"{"}}{{ article.date.strftime("%Y") }}{{"}"}}
 }
