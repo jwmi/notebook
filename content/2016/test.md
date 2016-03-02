@@ -5,7 +5,7 @@ Type: Lab notebook
 Date: 2016-02-28
 Category: misc
 Tags: 
-Slug: test-post
+Slug: 2016-test-post
 Summary: Short version for index and feeds
 
 This is a test post.
