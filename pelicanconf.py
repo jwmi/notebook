@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jeffrey W. Miller'
 SITENAME = u"Miller's notebook"
-SITEURL = u'http://jwmi.github.io'
+SITEURL = u'http://jwmi.github.io/nb'
 
 #### BEGIN CUSTOMIZATIONS #####
 # Theme settings
@@ -30,7 +30,7 @@ DISQUS_PUBLIC_KEY = u'VgW0p6k1CzIL7WT1TKJPvgBYu46ZKylVRo5cMuctZ9VtvHgH2NL7OmnNph
 
 # Misc 
 TWITTER_USERNAME = 'jefmilr'
-#TWITTER_ADDRESS = 'https://twitter.com/jefmilr'
+TWITTER_ADDRESS = 'https://twitter.com/jefmilr'
 GOOGLE_ANALYTICS_ID = 'UA-74580604-1'
 
 # Paths

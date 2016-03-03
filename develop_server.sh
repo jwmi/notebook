@@ -2,13 +2,18 @@
 ##
 # This section should match your Makefile
 ##
+
+## begin customize
+OUTPUTDIR=~/gdrive/jwmi.github.io/nb
+#OUTPUTDIR=$BASEDIR/output
+## end customize
+
 PY=${PY:-python}
 PELICAN=${PELICAN:-pelican}
 PELICANOPTS=
 
 BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
-OUTPUTDIR=$BASEDIR/output
 CONFFILE=$BASEDIR/pelicanconf.py
 
 ###
